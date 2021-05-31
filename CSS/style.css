@@ -1,0 +1,567 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.footer, .FormMaecenas, .TetraPartners, .SceneMap, .SliderAboutProductions, .main .bestQualities, .centerCountainer, .menu {
+  max-width: 1025px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.footer .linck-footer, .SceneMap, .main .bestQualities, .centerCountainer, .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SceneMap .contentMap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.bg {
+  background-image: url("../IMG/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(136, 136, 136, 0.4);
+          box-shadow: inset 0 0 0 1000px rgba(136, 136, 136, 0.4);
+}
+
+.menu {
+  padding-top: 20px;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu ul li {
+  display: inline-block;
+  padding-right: 64px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.menu .tel {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #ffc13b;
+  padding-bottom: 6px;
+}
+
+.leftBar {
+  position: fixed;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 1000px;
+  background-color: #1717177a;
+}
+.leftBar .contentLinck {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+}
+.leftBar .contentLinck .bar-title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  padding-bottom: 80px;
+}
+.leftBar .contentLinck .border {
+  border: 3px solid #fff;
+  width: 80px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.leftBar .contentLinck .icon {
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.leftBar .contentLinck .icon .INST {
+  padding-bottom: 30px;
+}
+.leftBar .btnLeftBar {
+  position: relative;
+  background-image: url("../IMG/icon/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  width: 40px;
+  height: 100px;
+  left: 150px;
+  top: 50%;
+  z-index: 101;
+}
+
+.leftBar.active {
+  width: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.leftBar.active .contentLinck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionLeft {
+  margin-top: 200px;
+}
+.sectionLeft .offer-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+}
+.sectionLeft .txt-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: rgba(255, 255, 255, 0.89);
+}
+.sectionLeft .button {
+  background-color: #D1A954;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 50px;
+}
+
+.bookSlider {
+  padding-top: 200px;
+}
+.bookSlider .swiper-container {
+  width: 300px;
+}
+.bookSlider .swiper-container .arrow {
+  position: relative;
+  width: 200px;
+  left: 50px;
+  top: 50px;
+}
+.bookSlider .swiper-container .arrow .swiper-button-prev, .bookSlider .swiper-container .arrow .swiper-button-next {
+  color: #fff;
+}
+.bookSlider .swiper-container .arrow .swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main {
+  min-height: 400vh;
+  background-color: #414141;
+}
+.main .theaterTitle {
+  margin: 0;
+  padding: 150px 100px;
+  font-size: 48px;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+.main .theaterTitle span {
+  color: #ffc13b;
+}
+.main .offer .theater-title {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 41px;
+  margin-top: 0;
+}
+.main .offer .theater-txt {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+.main .offer2 .theater-title2 {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0;
+}
+.main .offer2 .theaterIconTxt, .main .offer2 .theaterIconTxt2 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+.main .offer2 .theaterIconTxt span, .main .offer2 .theaterIconTxt2 span {
+  color: #ffc13b;
+}
+.main .offer2 .theaterIconTxt {
+  background-image: url("../IMG/icon/armchair.png");
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.main .offer2 .theaterIconTxt2 {
+  background-image: url("../IMG/icon/armchair.png");
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+
+.SliderAboutProductions .productions-title {
+  text-align: center;
+  margin: 0;
+  padding: 150px 100px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 41px;
+}
+.SliderAboutProductions .productions-title span {
+  color: #ffc13b;
+}
+.SliderAboutProductions .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.SliderAboutProductions .swiper-container .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.SliderAboutProductions .swiper-container .swiper-scrollbar {
+  padding: 5px;
+  background: #fff;
+}
+
+.SceneMap {
+  height: 412px;
+  background-image: url("../IMG/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+}
+.SceneMap .contentMap span {
+  color: #ffc13b;
+  display: block;
+  font-size: 72px;
+  font-weight: 700;
+}
+.SceneMap .contentMap .txt-map {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+.SceneMap .contentMap .star {
+  font-size: 35px;
+  padding-bottom: 24px;
+}
+
+.TetraPartners .title-partners {
+  text-align: center;
+  margin: 0;
+  padding: 150px 100px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 41px;
+}
+.TetraPartners .title-partners span {
+  color: #ffc13b;
+}
+.TetraPartners .advertising {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.TetraPartners .advertising img {
+  padding-bottom: 60px;
+}
+
+.FormMaecenas .title-maecenas {
+  text-align: center;
+  margin: 0;
+  padding: 150px 100px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 41px;
+}
+.FormMaecenas .title-maecenas span {
+  color: #ffc13b;
+}
+.FormMaecenas .sendingForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.FormMaecenas .sendingForm .addresses-maecenas ul {
+  list-style: none;
+  margin: 0;
+}
+.FormMaecenas .sendingForm .addresses-maecenas li {
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 22px;
+  font-size: 12px;
+}
+.FormMaecenas .sendingForm .form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 800px;
+}
+.FormMaecenas .sendingForm .form input {
+  width: 200px;
+  height: 40px;
+  background: #6f6f6f0a;
+  border: 1px solid #FFFFFF;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.FormMaecenas .sendingForm .form textarea {
+  resize: none;
+  height: 104px;
+  background: #6f6f6f0a;
+  border: 1px solid #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+}
+.FormMaecenas .sendingForm .form .btn {
+  grid-column: -2;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  width: 206px;
+  height: 56px;
+  background-color: #D1A954;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+}
+.FormMaecenas .sendingForm .form .txt-form {
+  font-weight: 300;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer {
+  padding-top: 160px;
+}
+.footer .br-footer {
+  border: 1px solid #fff;
+}
+.footer .linck-footer {
+  padding-top: 33px;
+  color: rgba(255, 255, 255, 0.411);
+}

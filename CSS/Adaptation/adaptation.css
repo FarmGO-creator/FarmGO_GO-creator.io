@@ -1,0 +1,326 @@
+@media (max-width: 992px) {
+    .menu, .centerCountainer, .main .bestQualities, .SceneMap, .footer .linck-footer {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  
+    .bookSlider {
+      display: none;
+    }
+  
+    .centerCountainer {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+  
+    .menu ul li {
+      padding-bottom: 35px;
+      padding-right: 30px;
+    }
+  
+    .footer .linck-footer, .SceneMap, .main .bestQualities {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+  
+    .offer3 {
+      display: none;
+    }
+  
+    .TetraPartners {
+      display: block;
+    }
+  
+    .TetraPartners img:nth-child(4), img:nth-child(8) {
+      display: none;
+    }
+  
+    .TetraPartners .advertising {
+      -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(1) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(2) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 2;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(3) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 3;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(4) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(5) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 2;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(6) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 3;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(7) {
+      -ms-grid-row: 3;
+      -ms-grid-column: 1;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(8) {
+      -ms-grid-row: 3;
+      -ms-grid-column: 2;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(9) {
+      -ms-grid-row: 3;
+      -ms-grid-column: 3;
+    }
+  
+    .FormMaecenas {
+      display: block;
+      position: relative;
+    }
+  
+    .sendingForm {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  
+    .addresses-maecenas {
+      width: 100%;
+    }
+  
+    .FormMaecenas .sendingForm .form .btn {
+      -ms-grid-row: 2;
+      grid-row: 2;
+    }
+  
+    .flex-ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 0;
+      padding-bottom: 20px;
+    }
+  
+    .sectionLeft .offer-title {
+      font-size: 40px;
+    }
+  
+    .sectionLeft .txt-title {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  @media (max-width: 736px) {
+    .centerCountainer {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+    }
+  
+    .sectionLeft .button {
+      padding: 10px 20px;
+    }
+  
+    .leftBar .btnLeftBar {
+      top: 60%;
+    }
+  
+    .menu ul li {
+      display: none;
+    }
+  
+    .toggle {
+      position: relative;
+      background-image: url("../IMG/icon/menu.png");
+      background-repeat: no-repeat;
+      background-position-y: 20px;
+      background-size: 40px;
+      width: 40px;
+      height: 100px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      left: 5%;
+      z-index: 11;
+    }
+  
+    .toggle.active {
+      position: relative;
+      background-image: url("../IMG/icon/close.png");
+      background-repeat: no-repeat;
+      background-position-y: 20px;
+      background-size: 40px;
+      width: 40px;
+      height: 100px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      left: 5%;
+      z-index: 11;
+    }
+  
+    .burMenu {
+      position: fixed;
+      top: 0;
+      width: 0;
+      height: 100vh;
+      background-color: #000000;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      z-index: 10;
+      overflow: hidden;
+    }
+  
+    .burMenu.active {
+      width: 300px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+  
+    .burMenu, .menu ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-line-pack: center;
+          align-content: center;
+    }
+  
+    .footer .linck-footer, .SceneMap, .main .bestQualities {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .main .offer .theater-txt {
+      font-weight: 400;
+    }
+  
+    .mobolFlex {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 300px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+  
+    .main .theaterTitle {
+      padding: 80px 60px;
+    }
+  
+    .main .offer2 .theater-title2 {
+      margin-top: 27px;
+    }
+  
+    .SliderAboutProductions .productions-title {
+      padding: 80px 60px;
+      font-size: 25px;
+    }
+  
+    .SceneMap .contentMap .star {
+      font-size: 20px;
+    }
+  
+    .SceneMap .contentMap .txt-map {
+      font-size: 20px;
+      text-align: right;
+    }
+  
+    .SceneMap .contentMap span {
+      font-size: 60px;
+    }
+  
+    .TetraPartners .title-partners {
+      padding: 80px 60px;
+      font-size: 25px;
+    }
+  
+    .TetraPartners img:nth-child(even) {
+      display: none;
+    }
+  
+    .TetraPartners .advertising {
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(1) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(2) {
+      -ms-grid-row: 1;
+      -ms-grid-column: 2;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(3) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+    }
+  
+    .TetraPartners .advertising > *:nth-child(4) {
+      -ms-grid-row: 2;
+      -ms-grid-column: 2;
+    }
+  
+    .TetraPartners img {
+      width: 100px;
+      height: 70px;
+    }
+  
+    .FormMaecenas .title-maecenas {
+      padding: 80px 60px;
+      font-size: 20px;
+    }
+  
+    .FormMaecenas .sendingForm .form {
+      display: block;
+    }
+  
+    .FormMaecenas .sendingForm .form input, .FormMaecenas .sendingForm .form textarea {
+      width: 100%;
+    }
+  
+    .FormMaecenas .sendingForm .form .btn {
+      margin: 40px 0;
+    }
+  
+    .footer .linck-footer {
+      font-size: 10px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-bottom: 30px;
+    }
+  }
